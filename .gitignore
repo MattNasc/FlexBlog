@@ -1,0 +1,34 @@
+# Arquivos de bytecode Python
+__pycache__/
+
+# Arquivos gerados por várias IDEs e editores
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+
+# Diretório de ambiente virtual (por exemplo, criado por virtualenv ou venv)
+venv/
+
+# Arquivo de dependências gerado por pip
+requirements.txt
+
+# Arquivo de logs
+*.log
+
+# Arquivos de dados e configuração
+*.sqlite3
+*.db
+# *.json
+*.ini
+
+# Arquivos temporários
+*~
+*.bak
+*.swp
