@@ -146,15 +146,6 @@ img {
     box-sizing: border-box;
 }
 
-.superinfo-bg {
-    background-color: #122ab2;
-    color: #FFF;
-
-    a {
-        color: #FFF;
-    }
-}
-
 .superinfo {
     display: flex;
     max-width: 960px;
@@ -163,8 +154,103 @@ img {
     flex-wrap: wrap;
     padding-top: 10px;
 
+    &-bg {
+        background-color: #122ab2;
+        color: #FFF;
+
+        a {
+            color: #FFF;
+        }
+    }
+
     p,
     a {
         margin: 0 10px 10px 10px;
+    }
+}
+
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: #FFF;
+    }
+
+    &-bg {
+        background-color: #2c70ff;
+    }
+
+    &-logo {
+        a {
+            font-size: 2.25em;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+    }
+
+    &-nav {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            a {
+                font-size: 1.125em;
+                display: block;
+                padding: 10px;
+
+                &:hover {
+                    color: #122ab2;
+                }
+            }
+        }
+    }
+}
+
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+.sobre {
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    &-info {
+        flex: 2 1 300px;
+        margin: 0 10px;
+
+        h1 {
+            font-size: 3em;
+            margin: .5em;
+        }
+
+        p {
+            font-size: 1.25em;
+            line-height: 1.4;
+            margin-bottom: 1em;
+            color: #7c7c7c;
+        }
+
+    }
+
+    &-img {
+        flex: 1 1 160px;
+        margin: 0 10px;
     }
 }
